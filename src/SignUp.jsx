@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+import { Link } from 'react-router-dom';
 import facebook from './assets/logo/facebook (1).png';
 import twitter from './assets/logo/twitter.png';
 import insta from './assets/logo/instagram (1).png';
@@ -44,9 +45,9 @@ export default function SignUp  () {
                     {/* <span id='togglePassword' className='toggle-icon'>👁️</span> */}
                     <button className='btn'>Create an account</button>
 
-                    <p>Already have an?
-                    <span className='underline'> Login</span></p>
-
+                    <p>Already have an account?
+                    <Link to="/" className="underline"> Login</Link>
+                    </p>
                     <div className='icons'>
                         <img src={facebook} alt='facebook'></img>
                         <img src={twitter} alt='twitter'></img>

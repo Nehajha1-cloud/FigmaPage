@@ -15,12 +15,18 @@ import Share from './assets/logo/share (2).png';
 
 import Group from './assets/Image/group.jpg';
 
+import facebook from './assets/logo/facebook (1).png';
+import twitter from './assets/logo/twitter.png';
+import insta from './assets/logo/instagram (1).png';
+import linkedin from './assets/logo/linkedin (1).png';
+
+
 const images = [
-  { src: Image1, alt: 'Image 1', description: 'Lorem ipsum dolor sit amet consectetur.' },
-  { src: Image2, alt: 'Image 2', description: 'Lorem ipsum dolor sit amet consectetur.' },
-  { src: Image3, alt: 'Image 3', description: 'Lorem ipsum dolor sit amet consectetur.' },
-  { src: Image4, alt: 'Image 4', description: 'Lorem ipsum dolor sit amet consectetur.' },
-  { src: Image5, alt: 'Image 5', description: 'Lorem ipsum dolor sit amet consectetur.' },
+  { src: Image1, alt: 'Image 1' },
+  { src: Image2, alt: 'Image 2' },
+  { src: Image3, alt: 'Image 3' },
+  { src: Image4, alt: 'Image 4' },
+  { src: Image5, alt: 'Image 5' },
 ];
 
 export default function MainPage ()  {
@@ -50,7 +56,7 @@ export default function MainPage ()  {
     <div className='hero-section'>
         <div className='description'>
             <p className='first'>All IN ONE PLACE</p>
-            <h1>Unleash your creativity <br/>with sandstory</h1>
+            <h1>Unleash y<span className='break'>our creativit</span>y <br/>with sandstory</h1>
             <p>Lorem ipsum dolor sit amet consectetur.Sed nisl commodo mollis tristique sed adipiscing lacus <br/>commodo tincidunt.</p>
 
             <div className='button'>
@@ -79,7 +85,7 @@ export default function MainPage ()  {
             {images.map((img, index) => (
               <div className="image-card" key={index}>
                 <img src={img.src} alt={img.alt} />
-                <p>{img.description}</p>
+                <p>Lorem ipsum dolor sit amet<br/> consectetur</p>
                 <p1>Ashley Chui | 2 days ago</p1>
                 <br/>
                 <p2><span className='star'>★</span> 4.8</p2>
@@ -102,17 +108,17 @@ export default function MainPage ()  {
                 <div className='sublist1'>
                     <img src={create} alt=" create" />
                     <h1>Create</h1>
-                    <p>Upload your images, videos, and text to build your story.</p>
+                    <p className='paragraph'>Upload your images, videos, and text to build your story.</p>
                 </div>
                 <div className='sublist2'>
                     <img src={publish} alt=" publish" />
                     <h1>Publish</h1>
-                    <p>Upload your images, videos, and text to build your story.</p>
+                    <p className='paragraph'>Customize and finalize your creation.</p>
                 </div>
                 <div className='sublist3'>
                     <img src={Share} alt=" share" />
                     <h1>Share</h1>
-                    <p>Upload your images, videos, and text to build your story.</p>
+                    <p className='paragraph'>Reach your audience with a click of a button.</p>
                 </div>
             </div>
         </div>
@@ -234,14 +240,68 @@ export default function MainPage ()  {
     <div className="circle-count">+100K</div>
   </div>
 
-  <p className="description">
-    Be part of a vibrant community of storytellers. Exchange ideas, gain inspiration, and grow together.
+  <p className="description1">
+    Be part of a vibrant community of storytellers. Exchange ideas, gain<br/> inspiration, and grow together.
   </p>
 
   <button className="launch-btn">
     Launch Sandstory <span>↗</span>
   </button>
 </div>
+
+<footer className="footer">
+      <div className="footer-top">
+        <div className="footer-col brand">
+          <h2>SANDSTORY<span className="dot">.</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum rhoncus vulputate.</p>
+          <div className="social-icons">
+            <p>Follow us:</p>
+            <img src={facebook} alt="Facebook" className='facebook'/>
+            <img src={insta} alt="Instagram" className='insta' />
+            <img src={twitter} alt="Twitter" className='twitter' />
+            <img src={linkedin} alt="LinkedIn" className='linkedin' />
+            </div>
+        </div>
+
+        <div className="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Features</li>
+            <li>Activities</li>
+            <li>FAQs</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li>Community</li>
+            <li>Outdoors</li>
+            <li>Indoors</li>
+            <li>Toddlers Friendly</li>
+            <li>Parents Connect</li>
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h4>Get in Touch</h4>
+          <p>Question or feedback?<br />We’d love to hear from you</p>
+          <div className="email-box">
+            <input type="email" placeholder="Your Email" />
+            <button><img src={Share} alt='share'></img></button>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>Sandstory © 2024 All Rights Reserved</p>
+        <div className="footer-links">
+          <a href="#">Privacy Policy  |</a>  <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
 
 
       

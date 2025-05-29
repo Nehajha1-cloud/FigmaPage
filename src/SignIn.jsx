@@ -50,7 +50,7 @@ export default function SignInPage () {
             <div className='right'>
                 <div className='right-box'>
                     <div className='box'>
-                    <h3>Bring Your Vision to Real Life</h3>
+                    <h3>Bring Your Vision to<br/> Real Life</h3>
                     <p>Join Sandstory and unlock the potentional to create,
                      share, and connect. Showcase you talent, collaborate with like-minded individuals,
                      and inspires the world through your stories.</p>

@@ -1,11 +1,11 @@
 .container{
   display: flex;
   height: 100vh;
-  font-family: sans-serif;
+  font-family: 'sofia pro', sans-serif;
   border-radius: 5%;
-  background-color: #ffffff;
+  background-color: #fefcfc;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(49, 40, 40, 0.5);
+  box-shadow: 0 0 10px rgba(49, 40, 40, 0.1);
 }
 
 
@@ -168,31 +168,44 @@
   color: blueviolet;
 }
 .right{
-  background: blueviolet;
+  background: url('assets//Image/purplebg.jpg');
   color: white;
   border-radius: 5%;
 }
 
 .box{
-  background: rgb(160, 88, 228);
+  background: #8d89f7;
   padding: 60px;
   cursor: pointer;
-  max-width: 300px;
+  max-width: 460px;
   flex-direction: column;
   margin-bottom: 100px;
   margin-top: 150px;
 }
 .box h3{
-  font-weight: bold;
-  font-size: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  font-style: sofia pro;
   margin-top: 1px;
 }
 .box p{
-  font-size: 11.5px;
+  color: #f6f6f8;
+  font-style: 'sofia pro';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  font-size: 18px;
   line-height: 2;
 }
 .right-box p1{
-  margin-left: 50px;
+  color: #FCFCFC;
+  font-style: 'sofia pro';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 100px;
 }
 
 /* MainPage */
@@ -209,13 +222,19 @@
 }
 
 .heading {
-  font-size: 34px;
-  font-weight: bold;
-  color: #333;
+  font-size: 36px;
+  color: #1A093F;
+  font-style: 'Inter';
+  font-weight: 800;
+  line-height: 140%;
 }
 
 .dot {
-  color: #007BFF;
+  color: #7370ff;
+  font-style: 'Inter';
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
 }
 
 .main-nav-list {
@@ -228,13 +247,20 @@
 
 .main-nav-list a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: #1c1c1c;
+  font-style: 'sofia pro';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
   position: relative;
 }
 
 .main-nav-list a.home {
-  color: #007BFF;
+  color: #7874ff;
+  font-style: 'sofia pro';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 .main-nav-list a.home::after {
@@ -243,8 +269,8 @@
   left: 0;
   bottom: -4px; 
   width: 100%;
-  height: 2px;
-  background-color: #007BFF;
+  height: 1px;
+  background-color: #7874ff;
   border-radius: 2px;
 }
 .auth-links {
@@ -254,18 +280,25 @@
 
 .nav-cta {
   text-decoration: none;
-  color: black;
+  color: #1A093F;
+  background-color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
   margin-top: 6px;
 }
 
 .signup {
-  background-color: black;
-  color: white !important;
+  background-color: #1A093F;
+  height: 26px;
+  color: #ffffff !important;
+  text-align: center;
   padding: 6px 14px;
   border-radius: 20px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 

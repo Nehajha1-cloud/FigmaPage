@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FigmaPage/static/css/main.1bfe119e.css",
-    "main.js": "/FigmaPage/static/js/main.17b18e8a.js",
+    "main.css": "/FigmaPage/static/css/main.71fa72c0.css",
+    "main.js": "/FigmaPage/static/js/main.7ec6d06c.js",
     "static/js/453.ed3810f9.chunk.js": "/FigmaPage/static/js/453.ed3810f9.chunk.js",
     "static/media/Image3.jpg": "/FigmaPage/static/media/Image3.5aae35e2171015e176d0.jpg",
     "static/media/Image2.jpg": "/FigmaPage/static/media/Image2.25fceee3359dcc296957.jpg",
@@ -10,12 +10,12 @@
     "static/media/blank Image.jpg": "/FigmaPage/static/media/blank Image.615225ff38d851583107.jpg",
     "static/media/Image1.jpg": "/FigmaPage/static/media/Image1.c5ed556140bfbbbf0662.jpg",
     "index.html": "/FigmaPage/index.html",
-    "main.1bfe119e.css.map": "/FigmaPage/static/css/main.1bfe119e.css.map",
-    "main.17b18e8a.js.map": "/FigmaPage/static/js/main.17b18e8a.js.map",
+    "main.71fa72c0.css.map": "/FigmaPage/static/css/main.71fa72c0.css.map",
+    "main.7ec6d06c.js.map": "/FigmaPage/static/js/main.7ec6d06c.js.map",
     "453.ed3810f9.chunk.js.map": "/FigmaPage/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bfe119e.css",
-    "static/js/main.17b18e8a.js"
+    "static/css/main.71fa72c0.css",
+    "static/js/main.7ec6d06c.js"
   ]
 }

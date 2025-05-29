@@ -57,7 +57,7 @@ export default function MainPage ()  {
         <div className='description'>
             <p className='first'>All IN ONE PLACE</p>
             <h1>Unleash y<span className='break'>our creativit</span>y <br/>with sandstory</h1>
-            <p>Lorem ipsum dolor sit amet consectetur.Sed nisl commodo mollis tristique sed adipiscing lacus <br/>commodo tincidunt.</p>
+            <p className='sentence1'>Lorem ipsum dolor sit amet consectetur.Sed nisl commodo mollis tristique sed adipiscing lacus <br/>commodo tincidunt.</p>
 
             <div className='button'>
                 <button className='launch'>Launch Sandstory</button>

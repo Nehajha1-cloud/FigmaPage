@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import SignInPage from './SignIn';
 import SignUp from './SignUp';
 import MainPage from './mainPage';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <div>
       <Routes>
         <Route path="/" element={<SignInPage />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
-      </Router>
-      <MainPage/>
-    </div>
+       <MainPage />
+  </div>
   );
 }
 

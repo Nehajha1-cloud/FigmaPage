@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/FigmaPage/static/css/main.e1e073cd.css",
-    "main.js": "/FigmaPage/static/js/main.5f644068.js",
+    "main.css": "/FigmaPage/static/css/main.f88c7441.css",
+    "main.js": "/FigmaPage/static/js/main.aa983c4f.js",
     "static/js/453.ed3810f9.chunk.js": "/FigmaPage/static/js/453.ed3810f9.chunk.js",
     "static/media/Image3.jpg": "/FigmaPage/static/media/Image3.5aae35e2171015e176d0.jpg",
     "static/media/Image2.jpg": "/FigmaPage/static/media/Image2.25fceee3359dcc296957.jpg",
     "static/media/group.jpg": "/FigmaPage/static/media/group.fc17821fc904e444a791.jpg",
+    "static/media/purplebg.jpg": "/FigmaPage/static/media/purplebg.45194938214d70189302.jpg",
     "static/media/Image4.jpg": "/FigmaPage/static/media/Image4.ad57d5cbd2bcddfbc5b2.jpg",
     "static/media/blank Image.jpg": "/FigmaPage/static/media/blank Image.615225ff38d851583107.jpg",
     "static/media/Image1.jpg": "/FigmaPage/static/media/Image1.c5ed556140bfbbbf0662.jpg",
     "index.html": "/FigmaPage/index.html",
-    "main.e1e073cd.css.map": "/FigmaPage/static/css/main.e1e073cd.css.map",
-    "main.5f644068.js.map": "/FigmaPage/static/js/main.5f644068.js.map",
+    "main.f88c7441.css.map": "/FigmaPage/static/css/main.f88c7441.css.map",
+    "main.aa983c4f.js.map": "/FigmaPage/static/js/main.aa983c4f.js.map",
     "453.ed3810f9.chunk.js.map": "/FigmaPage/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1e073cd.css",
-    "static/js/main.5f644068.js"
+    "static/css/main.f88c7441.css",
+    "static/js/main.aa983c4f.js"
   ]
 }

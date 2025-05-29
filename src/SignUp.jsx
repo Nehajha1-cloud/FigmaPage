@@ -24,8 +24,8 @@ export default function SignUp  () {
             </div>
             <div className='left'>
                 <div className='form'>
-                     <h2>LOGO.</h2>
-                    <h2>Create an Account</h2>
+                     <h2 className='firstlogo'>LOGO.</h2>
+                    <h2 className='logo'>Create an Account</h2>
                     <button className='google'>
                        Create account with Google
                         <img src="https://www.svgrepo.com/show/475656/google-color.svg"

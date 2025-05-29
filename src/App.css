@@ -3,6 +3,9 @@
   height: 100vh;
   font-family: sans-serif;
   border-radius: 5%;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(49, 40, 40, 0.5);
 }
 
 
@@ -11,28 +14,57 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5%;
 }
 
 .form{
   width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 4px;
 }
 
-.form h2{
+.form .firstlogo{
+  margin-top: 200px;
+  color: #1A093F;
+  font-weight: 800;
+  font-size: 36px;
   text-align: center;
-  line-height: 0.01;
+  line-height: 140%;
+}
+.form .dott{
+  color: #7370ff;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.form .logo{
+  margin-top: -20px;
+  color: #100f14;
+  font-style: sofia pro;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  margin-bottom: 2px;
 }
 
 .form p{
   text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .icons{
   display: flex;
   gap: 10px;
   margin-left: 140px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 200px;
 }
 .icons img:hover{
   transform: scale(1.1);
@@ -52,11 +84,16 @@
 
 .btn{
   padding: 10px;
-  background: blue;
-  color: white;
+  background: #7874ff;
+  color: #ffffff;
+  font-style: sofia pro;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .btn:hover{
@@ -73,15 +110,18 @@
 .divider::after{
   content: " ";
   flex: 1;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cbcad7;
 }
 .divider span{
   padding: 0;
   margin-left: 5px;
   margin-right: 5px;
-  color: #555;
-  font-size: 14px;
+  color: #686677;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
 }
+
 
 .google{
   display: flex;
@@ -91,8 +131,30 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 6px;
-  background: white;
+  background: #cbcad7;
+  color: #19181f;
+  font-style: sofia pro;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
   cursor: pointer;
+}
+
+.form label{
+  color: #9794aa;
+  font-style: sofia pro;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 16px;
+}
+.form input{
+  background-color: #cbcad7;
+  color: #686677;
+  font-style: sofia pro;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .icon{

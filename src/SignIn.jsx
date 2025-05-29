@@ -12,8 +12,8 @@ export default function SignInPage () {
         <div className='container'>
             <div className='left'>
                 <div className='form'>
-                     <h2>LOGO.</h2>
-                    <h2>Sign In to your Account</h2>
+                     <h2 className='firstlogo'>LOGO<span className='dott'>.</span></h2>
+                    <h2  className='logo'>Sign In to your Account</h2>
                     <button className='google'>
                        Sign In with Google
                         <img src="https://www.svgrepo.com/show/475656/google-color.svg"

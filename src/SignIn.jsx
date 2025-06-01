@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 
+// import frame from './assets/Image/Frame.png'
+
 import { Link } from 'react-router-dom';
 import facebook from './assets/logo/facebook (1).png';
 import twitter from './assets/logo/twitter.png';
 import insta from './assets/logo/instagram (1).png';
 import linkedin from './assets/logo/linkedin (1).png';
+
 
 export default function SignInPage () {
     return(
@@ -14,7 +17,7 @@ export default function SignInPage () {
                 <div className='form'>
                      <h2 className='firstlogo'>LOGO<span className='dott'>.</span></h2>
                     <h2  className='logo'>Sign In to your Account</h2>
-                    <button className='google'>
+                     <button className='google'>
                        Sign In with Google
                         <img src="https://www.svgrepo.com/show/475656/google-color.svg"
                         alt='Google'
@@ -54,6 +57,7 @@ export default function SignInPage () {
                     <p>Join Sandstory and unlock the potentional to create,
                      share, and connect. Showcase you talent, collaborate with like-minded individuals,
                      and inspires the world through your stories.</p>
+                     {/* <img src={frame} alt='frame'/> */}
                 </div>
                 <p1>Let your creativity shine--no limits, just possibilities.</p1>
                 </div>

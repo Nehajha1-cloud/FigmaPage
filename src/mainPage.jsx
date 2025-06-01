@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
 
-import Image from './assets/Image/blank Image.jpg';
+import Image from './assets/Image/Image.png';
 
-import Image1 from './assets/Image/Image1.jpg';
-import Image2 from './assets/Image/Image2.jpg';
-import Image3 from './assets/Image/Image3.jpg';
-import Image4 from './assets/Image/Image4.jpg';
-import Image5 from './assets/Image/Image1.jpg';
+import Image1 from './assets/Image/Image1.png';
+import Image2 from './assets/Image/Image2.png';
+import Image3 from './assets/Image/Image3.png';
+import Image4 from './assets/Image/Image4.png';
+import Image5 from './assets/Image/Image1.png';
 
 import create from './assets/logo/create.png';
 import publish from './assets/logo/publish.png';
 import Share from './assets/logo/share (2).png';
 
-import Group from './assets/Image/group.jpg';
+import Group from './assets/Image/Group.png';
 
 import facebook from './assets/logo/facebook (1).png';
 import twitter from './assets/logo/twitter.png';

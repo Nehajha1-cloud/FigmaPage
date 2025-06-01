@@ -131,7 +131,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 6px;
-  background: #cbcad7;
+  background: #ffffff;
   color: #19181f;
   font-style: sofia pro;
   font-weight: 500;
@@ -141,7 +141,7 @@
 }
 
 .form label{
-  color: #9794aa;
+  color: #ffffff;
   font-style: sofia pro;
   font-weight: 500;
   font-size: 16px;
@@ -149,7 +149,7 @@
   margin-top: 16px;
 }
 .form input{
-  background-color: #cbcad7;
+  background-color: #ffffff;
   color: #686677;
   font-style: sofia pro;
   font-weight: 500;
@@ -168,19 +168,19 @@
   color: blueviolet;
 }
 .right{
-  background: url('assets//Image/purplebg.jpg');
+  background: url('assets//Image/Bluebackground.png');
   color: white;
   border-radius: 5%;
 }
 
 .box{
-  background: #8d89f7;
-  padding: 60px;
+  background: rgb(192, 129, 251);
+  padding: 20px;
   cursor: pointer;
   max-width: 460px;
   flex-direction: column;
   margin-bottom: 100px;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 .box h3{
   color: #ffffff;
@@ -205,7 +205,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 /* MainPage */
@@ -377,29 +377,43 @@
 
 }
 
-.wrapper{
+.wrapper {
   position: relative;
-  display: inline-block;
-  overflow: visible;
-}
-.image{
-  background-color: #cbd5f8;
-  width: 400px;
-  height: 350px;
-  margin-top: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px; 
+  min-height: 450px; 
+  margin: 100px auto 0;
+  padding: 10px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #cbd5f8, #f6effc);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 360px;
   margin-left: 200px;
-  border-radius: 20px;
+}
 
+.image {
+  width: 90%;
+  height: auto;
+   margin-bottom: 110px;
+  max-height: 300px;
+  border-radius: 20px;
   position: relative;
 }
-.image img{
+
+.image img {
   width: 100%;
-  height: 100%;
+  height: 140%;
   object-fit: cover;
+  display: block;
+  border-radius: 20px;
 }
+
 .stars{
   position: absolute;
-  top: 90%;
+  top: 110%;
   left: -100px; 
   transform: translateY(-100%);
   font-size: 30px;
@@ -411,9 +425,9 @@
 }
 .emoji {
   position: absolute;
-  top: 106%; 
+  top: 160%; 
   background-color: #ffffff;
-  right: -30px; 
+  right: -60px; 
   transform: translateY(-100%);
   font-size: 80px;
   border-radius: 20px;
@@ -428,7 +442,7 @@
   display: flex;
   gap: 0;
   line-height: 0.5;
-  margin-top: 20px;
+  margin-top: 100px;
   flex-direction: column;
 }
 .description .first{

@@ -268,7 +268,7 @@ const [activeIndex, setActiveIndex] = useState(0);
           <p>Question or feedback?<br />We’d love to hear from you</p>
           <div className="email-box">
             <input type="email" placeholder="Your Email" />
-            <button><img src={Share} alt='share'></img></button>
+            <button><img src={Share} alt='share' className='share-icon'></img></button>
           </div>
         </div>
       </div>

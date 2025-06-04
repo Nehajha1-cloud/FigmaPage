@@ -24,7 +24,7 @@
   width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 
@@ -51,7 +51,8 @@
 .form .logo{
   margin-top: -20px;
   color: #100f14;
-  font-family: 'poppins';
+  font-family: 'Manrope';
+  margin-left: 55px;
   font-weight: 600;
   font-size: 32px;
   line-height: 41px;
@@ -67,9 +68,9 @@
 
 .icons{
   display: flex;
-  gap: 10px;
-  margin-left: 140px;
-  width: 32px;
+  gap: 24px;
+  margin-left: 110px;
+  width: 200px;
   height: 32px;
   margin-bottom: 200px;
 }
@@ -93,7 +94,7 @@
   padding: 10px;
   background: #7874ff;
   color: #ffffff;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -121,7 +122,7 @@
 }
 .divider span{
   padding: 0;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   margin-left: 5px;
   margin-right: 5px;
   color: #686677;
@@ -141,7 +142,7 @@
   border-radius: 6px;
   background: #ffffff;
   color: #19181f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -150,7 +151,7 @@
 
 .form label{
   color: #9794AA;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -159,7 +160,7 @@
 .form input{
   background-color: #ffffff;
   color: #686677;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -241,12 +242,12 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   margin-top: 1px;
 }
 .box p{
   color: #f6f6f8;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -255,7 +256,7 @@
 }
 .right-box .lastline{
   color: #FCFCFC;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -302,7 +303,7 @@
 .main-nav-list a {
   text-decoration: none;
   color: #1c1c1c;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
@@ -311,7 +312,7 @@
 
 .main-nav-list a.home {
   color: #7874ff;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -359,7 +360,7 @@
 .main-section{
   display: flex;
   height: 30vh;
-  font-family: 'poppins';
+  font-family: 'Manrope';
 }
 
 .hero-section{
@@ -377,14 +378,14 @@
 .description h1{
   font-size: 60px;
   color: #1A093F;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight:900;
   font-size: 64px;
   line-height: 110%
 }
 .description .sentence1{
   font-size: 18px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -405,7 +406,7 @@
 .launch{
   padding: 14px;
   background: #7874ff;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -419,7 +420,7 @@
 .explore{
   padding: 14px;
   background: #eff2fc;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   color: #1c1c1c;
   border: none;
   border-radius: 20px;
@@ -501,7 +502,7 @@
 }
 .description .first{
   color: #e97b0c;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -509,7 +510,7 @@
 }
 .description h1{
   color: #1A093F;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -530,7 +531,7 @@
 }
 .image-card .caption{
   color: #1A093F;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -547,7 +548,7 @@
 
 .image-card .author{
   color: #8c849f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
@@ -567,7 +568,7 @@
 }
 .image-card .firstrating{
   color: #86849f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -581,7 +582,7 @@
 }
 .start{
   color: #e97b0c;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -590,7 +591,7 @@
 }
 .desp h1{
   color: #1a093f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -598,7 +599,7 @@
   text-align: center;
 }
 .sentence{
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -629,31 +630,29 @@
 }
 .sublist1 img{
    line-height: 3;
-  background-color: #39b651;
   border-radius: 5px;
   font-size: 16px;
   padding: 8px 10px;
 }
 .sublist2 img{
    line-height: 3;
-  background-color: #f94681;
   border-radius: 10px;
   font-size: 16px;
   padding: 8px 10px;
 }
 .sublist3 img{
-   line-height: 3;
+  line-height: 3;
   background-color: orange;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 16px;
-  padding: 8px 10px;
+  padding: 20px 20px;
 }
 .sublist1,
 .sublist2, 
 .sublist3
  h1{
   color: #1A093F;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -662,7 +661,7 @@
 
 .sublist .paragraph{
   color: #8C849F;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 16px;
   line-height: 180%;
@@ -675,7 +674,7 @@
 }
 .community .firsts{
   color: #e97b0c;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -685,7 +684,7 @@
 .community h1{
   color: #1a093f;
   margin-left: -60px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -693,7 +692,7 @@
 }
 .community .sentences{
   color: #191825;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -712,6 +711,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
+    gap: 24px;
 }
 
 .count {
@@ -725,9 +725,8 @@
     font-size: 16px;
     line-height: 180%;
     color: #191825;
-    font-family: 'poppins';
+    font-family: 'Manrope';
     font-weight: 400;
-    margin-top: 5px;
 }
 .Image2 {
     position: relative;
@@ -756,7 +755,7 @@
     position: absolute;
     top: 0;
     right: 380px;
-    width: 210.54px;
+    width: 200.54px;
     padding: 10px;
     gap: 20px;
     text-align: center;
@@ -766,7 +765,7 @@
     border-radius: 20px;
 }
 .exp span{
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 18.03px;
   line-height: 33.81px;
@@ -778,13 +777,13 @@
 .about {
   text-align: center;
   padding: 80px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope';
   background-color: #fff;
 }
 
 .about .info .firsts {
   color: #e97b0c;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -793,7 +792,7 @@
 }
 
 .about .info h1 {
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-size: 48px;
   line-height: 140%;
   font-weight: 900;
@@ -858,7 +857,7 @@
 .card h1 {
   font-size: 24px;
   color: #1a093f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   line-height: 140%;
   letter-spacing: 0%;
@@ -867,7 +866,7 @@
 
 .card p {
   font-size: 16px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   color: #18191f;
   line-height: 180%;
@@ -891,7 +890,7 @@
 
 .rating-number {
   color: #8c849f;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   line-height: 30px;
   letter-spacing: 0%;
   font-weight: 500;
@@ -922,7 +921,7 @@
   font-weight: 700;
   color: #18191f;
   margin: 0;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   line-height: 30px;
   margin-top: 10px;
 }
@@ -952,7 +951,7 @@
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   line-height: 140%;
   letter-spacing: 0%;
 }
@@ -1001,7 +1000,7 @@
   font-size: 16px;
   color: #e0e0e0;
   
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   line-height: 180%;
   letter-spacing: 0%;
@@ -1009,7 +1008,7 @@
 
 .launch-btn {
   background-color: #ffffff;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   color: #7874ff;
   padding: 10px 20px;
   border: none;
@@ -1041,8 +1040,9 @@
 .footer {
   background-color: #fff;
   color: #333;
-  padding: 40px 20px 20px;
-  font-family: sans-serif;
+  padding: 20px 20px 20px;
+  gap: 113px;
+  font-family: "Manrope";
   border-top: 1px solid #eee;
 }
 
@@ -1057,20 +1057,20 @@
   flex: 1;
   min-width: 200px;
   margin: 20px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .footer-col h4 {
   font-size: 16px;
   margin-bottom: 15px;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
   letter-spacing: 0%;
 }
 .footer-col p{
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -1080,7 +1080,7 @@
 .footer-col ul {
   list-style: none;
   padding: 0;
-  font-family: 'poppins';
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -1108,7 +1108,7 @@
 .social-icons {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 .social-icons img {
@@ -1125,7 +1125,10 @@
 
 .social-icons p {
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: 'Manrope';
+  line-height: 180%;
   color: #1a093f;
 }
 
@@ -1163,7 +1166,7 @@
 .footer-bottom {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #7874ff;
   align-items: center;
   font-size: 14px;
@@ -1293,7 +1296,7 @@
     width: 140px;
   }
   .exp{
-    width: 140px;
+    width: 100px;
   }
 
   .about{

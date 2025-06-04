@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 
 import { Link } from 'react-router-dom';
-import facebook from './assets/logo/facebook (1).png';
+import facebook from './assets/logo/facebook .png';
 import twitter from './assets/logo/twitter.png';
-import insta from './assets/logo/instagram (1).png';
-import linkedin from './assets/logo/linkedin (1).png';
+import insta from './assets/logo/instagram .png';
+import linkedin from './assets/logo/linkedin .png';
 
 export default function SignUp  () {
   return (
@@ -34,7 +34,7 @@ export default function SignUp  () {
                         />
                     </button>
                     <div className='divider'>
-                        <span>or</span>
+                        <span>Or</span>
                     </div>
                      <label>Email Address</label>
                     <input type='email' placeholder='enter your email address' className='input' />

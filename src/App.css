@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
 .container{
   display: flex;
   height: 100vh;
-  font-family: 'sofia pro', sans-serif;
+  
   border-radius: 5%;
   background-color: #fefcfc;
   overflow: hidden;
@@ -24,10 +27,14 @@
   gap: 4px;
 }
 
+
+
 .form .firstlogo{
   margin-top: 200px;
+  font-family: in;
   color: #1A093F;
   font-weight: 800;
+  font-family: 'Inter';
   font-size: 36px;
   text-align: center;
   line-height: 140%;
@@ -44,7 +51,7 @@
 .form .logo{
   margin-top: -20px;
   color: #100f14;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 600;
   font-size: 32px;
   line-height: 41px;
@@ -86,7 +93,7 @@
   padding: 10px;
   background: #7874ff;
   color: #ffffff;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -114,6 +121,7 @@
 }
 .divider span{
   padding: 0;
+  font-family: 'poppins';
   margin-left: 5px;
   margin-right: 5px;
   color: #686677;
@@ -133,7 +141,7 @@
   border-radius: 6px;
   background: #ffffff;
   color: #19181f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -141,8 +149,8 @@
 }
 
 .form label{
-  color: #ffffff;
-  font-style: sofia pro;
+  color: #9794AA;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -151,7 +159,7 @@
 .form input{
   background-color: #ffffff;
   color: #686677;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
@@ -187,12 +195,12 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   margin-top: 1px;
 }
 .box p{
   color: #f6f6f8;
-  font-style: 'sofia pro';
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -201,7 +209,7 @@
 }
 .right-box p1{
   color: #FCFCFC;
-  font-style: 'sofia pro';
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -248,7 +256,7 @@
 .main-nav-list a {
   text-decoration: none;
   color: #1c1c1c;
-  font-style: 'sofia pro';
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
@@ -257,7 +265,7 @@
 
 .main-nav-list a.home {
   color: #7874ff;
-  font-style: 'sofia pro';
+  font-family: 'poppins';
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -303,9 +311,9 @@
 
 
 .main-section{
-   display: flex;
+  display: flex;
   height: 30vh;
-  font-family: sans-serif;
+  font-family: 'poppins';
 }
 
 .hero-section{
@@ -323,14 +331,14 @@
 .description h1{
   font-size: 60px;
   color: #1A093F;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight:900;
   font-size: 64px;
   line-height: 110%
 }
 .description .sentence1{
   font-size: 18px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -351,7 +359,7 @@
 .launch{
   padding: 14px;
   background: #7874ff;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -365,7 +373,7 @@
 .explore{
   padding: 14px;
   background: #eff2fc;
-  font-style: sofia pro;
+  font-family: 'poppins';
   color: #1c1c1c;
   border: none;
   border-radius: 20px;
@@ -447,7 +455,7 @@
 }
 .description .first{
   color: #e97b0c;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -455,7 +463,7 @@
 }
 .description h1{
   color: #1A093F;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -476,7 +484,7 @@
 }
 .image-card p{
   color: #1A093F;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;
@@ -493,7 +501,7 @@
 
 .image-card p1{
   color: #8c849f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
@@ -511,7 +519,7 @@
 }
 .image-card p2{
   color: #86849f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 500;
   font-size: 15px;
   line-height: 30px;
@@ -525,7 +533,7 @@
 }
 .start{
   color: #e97b0c;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -534,7 +542,7 @@
 }
 .desp h1{
   color: #1a093f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -542,7 +550,7 @@
   text-align: center;
 }
 .sentence{
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -597,7 +605,7 @@
 .sublist3
  h1{
   color: #1A093F;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -606,7 +614,7 @@
 
 .sublist .paragraph{
   color: #8C849F;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 16px;
   line-height: 180%;
@@ -619,7 +627,7 @@
 }
 .community .firsts{
   color: #e97b0c;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -629,7 +637,7 @@
 .community h1{
   color: #1a093f;
   margin-left: -60px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 900;
   font-size: 48px;
   line-height: 140%;
@@ -637,7 +645,7 @@
 }
 .community .sentences{
   color: #191825;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -669,7 +677,7 @@
     font-size: 16px;
     line-height: 180%;
     color: #191825;
-    font-style: sofia pro;
+    font-family: 'poppins';
     font-weight: 400;
     margin-top: 5px;
 }
@@ -710,7 +718,7 @@
     border-radius: 20px;
 }
 .exp span{
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 18.03px;
   line-height: 33.81px;
@@ -728,7 +736,7 @@
 
 .about .info .firsts {
   color: #e97b0c;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
@@ -737,7 +745,7 @@
 }
 
 .about .info h1 {
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-size: 48px;
   line-height: 140%;
   font-weight: 900;
@@ -776,7 +784,7 @@
 .card h1 {
   font-size: 24px;
   color: #1a093f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   line-height: 140%;
   letter-spacing: 0%;
@@ -785,7 +793,7 @@
 
 .card p {
   font-size: 16px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   color: #18191f;
   line-height: 180%;
@@ -809,7 +817,7 @@
 
 .rating-number {
   color: #8c849f;
-  font-style: sofia pro;
+  font-family: 'poppins';
   line-height: 30px;
   letter-spacing: 0%;
   font-weight: 500;
@@ -840,7 +848,7 @@
   font-weight: 700;
   color: #18191f;
   margin: 0;
-  font-style: sofia pro;
+  font-family: 'poppins';
   line-height: 30px;
   margin-top: 10px;
 }
@@ -870,7 +878,7 @@
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   line-height: 140%;
   letter-spacing: 0%;
 }
@@ -919,7 +927,7 @@
   font-size: 16px;
   color: #e0e0e0;
   
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   line-height: 180%;
   letter-spacing: 0%;
@@ -927,7 +935,7 @@
 
 .launch-btn {
   background-color: #ffffff;
-  font-style: sofia pro;
+  font-family: 'poppins';
   color: #7874ff;
   padding: 10px 20px;
   border: none;
@@ -981,14 +989,14 @@
 .footer-col h4 {
   font-size: 16px;
   margin-bottom: 15px;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
   letter-spacing: 0%;
 }
 .footer-col p{
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -998,7 +1006,7 @@
 .footer-col ul {
   list-style: none;
   padding: 0;
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -1058,8 +1066,7 @@
   border: 1px solid #8c849f;
   border-radius: 20px 0 0 20px;
   flex: 1;
-
-  font-style: sofia pro;
+  font-family: 'poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 180%;
@@ -1100,3 +1107,82 @@
 
 
 
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+
+  .left, .right {
+    flex: 1;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .icons {
+    margin-left: 140px;
+    margin-bottom: 200px;
+  }
+
+  .right {
+    background: url('assets//Image/Bluebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    margin-left: 200px;
+    margin-top: 360px;
+  }
+
+  .Hero {
+    margin-left: 80px;
+    margin-right: 180px;
+  }
+
+  .hero-section {
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+
+  .description h1 {
+    font-size: 48px;
+  }
+
+  .image-card img {
+    width: 160%;
+  }
+
+  .sublist {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .Image2 .img img {
+    width: 240%;
+    height: 400%;
+    margin-left: -350px;
+  }
+
+  .exp {
+    right: 400px;
+  }
+
+  /* Ensure no elements get squeezed or stacked */
+  .main-nav, .auth-links, .main-section, .easySteps, .community, .about {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Prevent font resizing or hiding for smaller screens */
+  .form p, .description .sentence1, .image-card p1, .count1 {
+    font-size: 16px;
+  }
+}

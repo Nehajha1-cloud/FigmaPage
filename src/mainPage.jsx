@@ -11,14 +11,14 @@ import Image5 from './assets/Image/Image1.png';
 
 import create from './assets/logo/create.png';
 import publish from './assets/logo/publish.png';
-import Share from './assets/logo/share (2).png';
+import Share from './assets/logo/share .png';
 
 import Group from './assets/Image/Group.png';
 
-import facebook from './assets/logo/facebook (1).png';
+import facebook from './assets/logo/facebook .png';
 import twitter from './assets/logo/twitter.png';
-import insta from './assets/logo/instagram (1).png';
-import linkedin from './assets/logo/linkedin (1).png';
+import insta from './assets/logo/instagram .png';
+import linkedin from './assets/logo/linkedin .png';
 
 
 const images = [

@@ -1,21 +1,16 @@
 import React from 'react';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
 
-import {Routes, Route } from 'react-router-dom';
-import SignInPage from './SignIn';
 import SignUp from './SignUp';
+import SignInPage from './SignIn';
 import MainPage from './mainPage';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/" element={<SignInPage />} />
-      </Routes>
-        <MainPage />
-  </div>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/signin" element={<SignInPage />} />
+      <Route path="/signup" element={<SignUp />} />
+    </Routes>
   );
 }
-
-export default App;

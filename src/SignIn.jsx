@@ -4,10 +4,10 @@ import './App.css';
 // import frame from './assets/Image/Frame.png'
 
 import { Link } from 'react-router-dom';
-import facebook from './assets/logo/facebook (1).png';
+import facebook from './assets/logo/facebook .png';
 import twitter from './assets/logo/twitter.png';
-import insta from './assets/logo/instagram (1).png';
-import linkedin from './assets/logo/linkedin (1).png';
+import insta from './assets/logo/instagram .png';
+import linkedin from './assets/logo/linkedin .png';
 
 
 export default function SignInPage () {
@@ -25,7 +25,7 @@ export default function SignInPage () {
                         />
                     </button>
                     <div className='divider'>
-                        <span>or</span>
+                        <span>Or</span>
                     </div>
                      <label>Email Address</label>
                     <input type='email' placeholder='enter your email address' className='input' />

@@ -814,9 +814,34 @@
   padding-bottom: 20px;
   margin-left: 60px;
 }
-.card:hover{
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0 ,0.2);
+.carousel-container {
+  position: relative;
+  height: 320px; 
+  flex-direction: row;
+}
+
+.card-slider {
+  display: flex;
+  gap: 2rem;
+}
+
+.card.active {
+  transform: translateY(-20px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pagination .dot {
+  height: 10px;
+  width: 10px;
+  margin: 40px 4px;
+  border-radius: 50%;
+  background: #ccc;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagination .dot.active {
+  background: #333;
 }
 
 .card {
@@ -827,6 +852,7 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
   text-align: left;
   flex: 0 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h1 {

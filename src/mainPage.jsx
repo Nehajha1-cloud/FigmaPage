@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState } from 'react';
 import './App.css';
 
 import Image from './assets/Image/Image.png';
@@ -11,14 +11,15 @@ import Image5 from './assets/Image/Image1.png';
 
 import create from './assets/logo/create.png';
 import publish from './assets/logo/publish.png';
-import Share from './assets/logo/share .png';
+import Share from './assets/logo/share.png';
 
 import Group from './assets/Image/Group.png';
 
-import facebook from './assets/logo/facebook .png';
+
+import facebook from './assets/logo/facebook.png';
 import twitter from './assets/logo/twitter.png';
-import insta from './assets/logo/instagram .png';
-import linkedin from './assets/logo/linkedin .png';
+import insta from './assets/logo/instagram.png';
+import linkedin from './assets/logo/linkedin.png';
 
 
 const images = [
@@ -29,7 +30,12 @@ const images = [
   { src: Image5, alt: 'Image 5' },
 ];
 
+
 export default function MainPage ()  {
+
+const [activeIndex, setActiveIndex] = useState(0);
+  const totalCards = 4;
+
   return (
     <div className='main-Page'>
         <header className="header">
@@ -165,11 +171,13 @@ export default function MainPage ()  {
 <div className='about'>
   <div className='info'>
     <p className='firsts'>What they say</p>
-    <h1>With Our Community Say About Us</h1>
+    <h1>What Our Community Says About Us</h1>
   </div>
 
-  <div className='card-info'>
-    <div className='card'>
+  <div className='carousel-row-container'>
+ <div className='card-slider'>
+  {[...Array(4)].map((_, index) => (
+    <div className={`card ${activeIndex === index ? 'active' : ''}`} key={index}>
       <h1>Best Memories</h1>
       <p>Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.</p>
       <div className='rating'>
@@ -183,48 +191,18 @@ export default function MainPage ()  {
         </div>
       </div>
     </div>
-    <div className='card'>
-      <h1>Best Memories</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.</p>
-      <div className='rating'>
-        ★ ★ ★ ★ <span className='white-star'>★</span> <span className='rating-number'>4.8</span>
-      </div>
-      <div className='profile'>
-        <img src={Group} alt='profile' />
-        <div className='profile-text'>
-          <p className='name'>Sara Lio</p>
-          <p className='company'>ABC Corporation</p>
-        </div>
-      </div>
-    </div>
-    <div className='card'>
-      <h1>Best Memories</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.</p>
-      <div className='rating'>
-        ★ ★ ★ ★ <span className='white-star'>★</span> <span className='rating-number'>4.8</span>
-      </div>
-      <div className='profile'>
-        <img src={Group} alt='profile' />
-        <div className='profile-text'>
-          <p className='name'>Sara Lio</p>
-          <p className='company'>ABC Corporation</p>
-        </div>
-      </div>
-    </div>
-    <div className='card'>
-      <h1>Best Memories</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.</p>
-      <div className='rating'>
-        ★ ★ ★ ★ <span className='white-star'>★</span> <span className='rating-number'>4.8</span>
-      </div>
-      <div className='profile'>
-        <img src={Group} alt='profile' />
-        <div className='profile-text'>
-          <p className='name'>Sara Lio</p>
-          <p className='company'>ABC Corporation</p>
-        </div>
-      </div>
-    </div>
+  ))}
+</div>
+  </div>
+
+  <div className='pagination'>
+    {[...Array(totalCards)].map((_, index) => (
+      <span
+        key={index}
+        className={`dot ${activeIndex === index ? 'active' : ''}`}
+        onClick={() => setActiveIndex(index)}
+      ></span>
+    ))}
   </div>
 </div>
 

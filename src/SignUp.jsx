@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 
 import { Link } from 'react-router-dom';
-import facebook from './assets/logo/facebook .png';
+import facebook from './assets/logo/facebook.png';
 import twitter from './assets/logo/twitter.png';
-import insta from './assets/logo/instagram .png';
-import linkedin from './assets/logo/linkedin .png';
+import insta from './assets/logo/instagram.png';
+import linkedin from './assets/logo/linkedin.png';
 
 export default function SignUp  () {
     const [showPassword, setShowPassword] = useState(false);

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FigmaPage/static/css/main.b7d7baf3.css",
-    "main.js": "/FigmaPage/static/js/main.7987f841.js",
+    "main.js": "/FigmaPage/static/js/main.c0c873f1.js",
     "static/js/453.ed3810f9.chunk.js": "/FigmaPage/static/js/453.ed3810f9.chunk.js",
     "static/media/Bluebackground.png": "/FigmaPage/static/media/Bluebackground.4f2666c358bc96eed81a.png",
     "static/media/Group.png": "/FigmaPage/static/media/Group.2a0722828c90e084c6a5.png",
@@ -11,11 +11,11 @@
     "static/media/Image2.png": "/FigmaPage/static/media/Image2.ce90b9aada78bc8bec0a.png",
     "index.html": "/FigmaPage/index.html",
     "main.b7d7baf3.css.map": "/FigmaPage/static/css/main.b7d7baf3.css.map",
-    "main.7987f841.js.map": "/FigmaPage/static/js/main.7987f841.js.map",
+    "main.c0c873f1.js.map": "/FigmaPage/static/js/main.c0c873f1.js.map",
     "453.ed3810f9.chunk.js.map": "/FigmaPage/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d7baf3.css",
-    "static/js/main.7987f841.js"
+    "static/js/main.c0c873f1.js"
   ]
 }

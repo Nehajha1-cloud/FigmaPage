@@ -85,10 +85,10 @@ export default function MainPage ()  {
             {images.map((img, index) => (
               <div className="image-card" key={index}>
                 <img src={img.src} alt={img.alt} />
-                <p>Lorem ipsum dolor sit amet<br/> consectetur</p>
-                <p1>Ashley Chui | 2 days ago</p1>
+                <p className='caption'>Lorem ipsum dolor sit amet<br/> consectetur</p>
+                <p className='author'>Ashley Chui | 2 days ago</p>
                 <br/>
-                <p2><span className='star'>★</span> 4.8</p2>
+                <p className='firstrating'><span className='star'>★</span> 4.8</p>
               </div>
             ))}
           </div>

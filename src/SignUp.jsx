@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 import { Link } from 'react-router-dom';
@@ -8,6 +8,7 @@ import insta from './assets/logo/instagram .png';
 import linkedin from './assets/logo/linkedin .png';
 
 export default function SignUp  () {
+    const [showPassword, setShowPassword] = useState(false);
   return (
 <div className='container'>
     <div className='right'>
@@ -37,11 +38,24 @@ export default function SignUp  () {
                         <span>Or</span>
                     </div>
                      <label>Email Address</label>
-                    <input type='email' placeholder='enter your email address' className='input' />
+                    <input type='email' placeholder='Enter your email address' className='input' />
                     <label>Full Name</label>
-                    <input type='email' placeholder='enter your full name' className='input' />
+                    <input type='email' placeholder='Enter your full name' className='input' />
                      <label>Password</label>
-                     <input type='password' placeholder='create your password' className='input' />
+                     <div className="password-wrapper">
+            <input
+              type={showPassword ? 'text' : 'password'}
+              placeholder="Enter your password"
+              className="password-input"
+            />
+            <span
+              onClick={() => setShowPassword(!showPassword)}
+              className={`password-toggle-icon ${showPassword ? 'show' : 'hide'}`}
+              aria-label={showPassword ? 'Hide password' : 'Show password'}
+            >
+              👁️‍🗨️
+            </span>
+          </div>
                     {/* <span id='togglePassword' className='toggle-icon'>👁️</span> */}
                     <button className='btn'>Create an account</button>
 

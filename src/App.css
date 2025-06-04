@@ -169,6 +169,37 @@
   width: 18px;
   height: 18px;
 }
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px; 
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.password-toggle-icon:hover {
+  color: #000;
+}
+
 
 .underline{
   text-decoration: underline;

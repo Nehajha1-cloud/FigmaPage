@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 // import frame from './assets/Image/Frame.png'
@@ -11,6 +11,7 @@ import linkedin from './assets/logo/linkedin .png';
 
 
 export default function SignInPage () {
+     const [showPassword, setShowPassword] = useState(false);
     return(
         <div className='container'>
             <div className='left'>
@@ -28,9 +29,21 @@ export default function SignInPage () {
                         <span>Or</span>
                     </div>
                      <label>Email Address</label>
-                    <input type='email' placeholder='enter your email address' className='input' />
-                     <label>Password</label>
-                     <input type='password' placeholder='create your password' className='input' />
+                   <div className="password-wrapper">
+  <input
+    type={showPassword ? 'text' : 'password'}
+    placeholder="enter your password"
+    className="password-input"
+  />
+  <span
+    onClick={() => setShowPassword(!showPassword)}
+    className="password-toggle-icon"
+    aria-label={showPassword ? 'Hide password' : 'Show password'}
+  >
+    {showPassword ? '🙈' : '👁️'}
+  </span>
+</div>
+
                     {/* <span id='togglePassword' className='toggle-icon'>👁️</span> */}
                     <button className='btn'>Create an account</button>
 

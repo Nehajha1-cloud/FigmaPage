@@ -51,14 +51,14 @@ const [activeIndex, setActiveIndex] = useState(0);
     </span>
 
     <ul className="main-nav-list">
-      <li><a href="" className="home">Home</a></li>
-      <li><a href="" className="list">About Us</a></li>
-      <li><a href="" className="list">Stories</a></li>
+      <li><a href="#" className="home">Home</a></li>
+      <li><a href="#" className="list">About Us</a></li>
+      <li><a href="#" className="list">Stories</a></li>
     </ul>
 
     <div className="auth-links">
-      <a href="" className="nav-cta">Sign Up</a>
-      <a href="" className="signup">Login</a>
+      <a href="#" className="nav-cta">Sign Up</a>
+      <a href="#" className="signup">Login</a>
     </div>
   </nav>
 </header>

@@ -334,6 +334,7 @@
 }
 
 .nav-cta {
+  font-family: "Manrope";
   text-decoration: none;
   color: #1A093F;
   background-color: #ffffff;
@@ -344,6 +345,7 @@
 }
 
 .signup {
+  font-family: "Manrope";
   background-color: #1A093F;
   height: 26px;
   color: #ffffff !important;
@@ -642,10 +644,10 @@
 }
 .sublist3 img{
   line-height: 3;
-  background-color: orange;
+  /* background-color: orange; */
   border-radius: 10px;
   font-size: 16px;
-  padding: 20px 20px;
+  padding: 8px 10px;
 }
 .sublist1,
 .sublist2, 
@@ -657,6 +659,9 @@
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0px;
+}
+.sublist3 h1{
+  font-size: 40px;
 }
 
 .sublist .paragraph{
@@ -912,8 +917,10 @@
 
 .profile-text {
   display: flex;
-  flex-direction: column;
-  gap: -12px;
+  flex-direction: column; 
+  margin-left: 10px;
+  gap: no;
+  
 }
 
 .name {
@@ -923,14 +930,13 @@
   margin: 0;
   font-family: 'Manrope';
   line-height: 30px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .company {
   font-size: 16px;
   color: #474a57;
   font-weight: 400;
-  margin-top: 2px;
   line-height: 180%;
 }
 

@@ -11,15 +11,21 @@ import Image5 from './assets/Image/Image1.png';
 
 import create from './assets/logo/create.png';
 import publish from './assets/logo/publish.png';
-import Share from './assets/logo/share.png';
+import Share1 from './assets/logo/share1.png';
 
 import Group from './assets/Image/Group.png';
 
+import profile1 from './assets/Image/profile1.png';
+import profile2 from './assets/Image/profile2.png';
+import profile3 from './assets/Image/profile3.png';
+import profile4 from './assets/Image/profile4.png'
 
 import facebook from './assets/logo/facebook.png';
 import twitter from './assets/logo/twitter.png';
 import insta from './assets/logo/instagram.png';
 import linkedin from './assets/logo/linkedin.png';
+
+import Share from './assets/logo/share.png';
 
 
 const images = [
@@ -122,7 +128,7 @@ const [activeIndex, setActiveIndex] = useState(0);
                     <p className='paragraph'>Customize and finalize your creation.</p>
                 </div>
                 <div className='sublist3'>
-                    <img src={Share} alt=" share" />
+                    <img src={Share1} alt=" share" />
                     <h1>Share</h1>
                     <p className='paragraph'>Reach your audience with a click of a button.</p>
                 </div>
@@ -211,10 +217,10 @@ const [activeIndex, setActiveIndex] = useState(0);
   <h2>Join the Sandstory Community</h2>
 
   <div className="avatars">
-    <img src={Group} alt="User 1" />
-    <img src={Group} alt="User 2" />
-    <img src={Group} alt="User 3" />
-    <img src={Group} alt="User 4" />
+    <img src={profile1} alt="User 1" />
+    <img src={profile2} alt="User 2" />
+    <img src={profile3} alt="User 3" />
+    <img src={profile4} alt="User 4" />
     <div className="circle-count">+100K</div>
   </div>
 

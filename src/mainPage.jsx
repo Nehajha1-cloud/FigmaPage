@@ -57,8 +57,8 @@ const [activeIndex, setActiveIndex] = useState(0);
     </ul>
 
     <div className="auth-links">
-      <a href="" className="nav-cta">Login</a>
-      <a href="" className="signup">Sign Up</a>
+      <a href="" className="nav-cta">Sign Up</a>
+      <a href="" className="signup">Login</a>
     </div>
   </nav>
 </header>

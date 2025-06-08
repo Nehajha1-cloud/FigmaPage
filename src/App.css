@@ -741,6 +741,52 @@
     margin-top: -60px;
     
 }
+.decorative-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-color: #FFCA00;
+  bottom: 400px;
+  right: 440.8px;
+  border-radius: 7.33px;
+  height: 13.0px;
+  width: 13.0px;
+}
+
+.blue {
+  background-color: #4141A5;
+  bottom: 150px;
+  right: 580.86px;
+  width: 13.06px;
+  height: 13.06px;
+  border-radius: 4.51px;
+  rotate: -14.24deg;
+}
+
+.red {
+  background-color: #FD5056;
+  top: 15.65px;
+  right: 70px;
+  border-radius: 4.51px;
+  rotate: 41.14deg;
+  width: 13.06px;
+  height: 13.06px;
+}
+
+.decorative-arrow {
+  position: absolute;
+  bottom: 300px;
+  right: 60px;
+  width: 108.37px;
+  height: 108.12px;
+  background-image: url('assets//Image/Arrow.png'); 
+  background-repeat: no-repeat;
+}
+
 .Image2 .img{
   margin-top: -300px;
   height: 100px;
@@ -774,7 +820,7 @@
   font-size: 18.03px;
   line-height: 33.81px;
   color: #1a093f;
-  width: 100px;
+  width: 80px;
   max-width: 244.54px;
 }
 
@@ -802,7 +848,7 @@
   font-weight: 900;
   color: #1a093f;
   margin-bottom: 40px;
-  margin-right: 480px;
+  margin-right: 600px;
   white-space: nowrap;
 }
 .about .info p{
@@ -1027,13 +1073,22 @@
   align-items: center;
   gap: 6px;
   transition: all 0.3s ease;
+  width: 202px;
+  height: 48px;
 }
-.launch-btn span{
+.launch-btn .arrow-wrapper{
   background-color: #7874ff;
   border-radius: 50%;
-  width: 26px;
-  height: 26px;
+  width: 29px;
+  height: 29px;
   color: #ffffff;
+  margin-left: 6px;
+}
+.arrow{
+  width: 17.37px;
+  height: 17.37px;
+  margin-top: 20.5px;
+  left: 174px;
 }
 
 .launch-btn:hover {
@@ -1169,6 +1224,9 @@
 }
 
 .footer-bottom {
+  width: 100vw;
+  height: 50px;
+  margin: 0 auto;
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
@@ -1176,6 +1234,7 @@
   align-items: center;
   font-size: 14px;
   color: white;
+  padding: 10px 0; 
 }
 .footer-bottom p{
   margin-left: 40px;

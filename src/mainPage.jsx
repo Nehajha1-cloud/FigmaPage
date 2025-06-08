@@ -164,6 +164,10 @@ const [activeIndex, setActiveIndex] = useState(0);
     </div>
 
     <div className='Image2'>
+    <div className='decorative-dot yellow'></div>
+  <div className='decorative-dot blue'></div>
+  <div className='decorative-dot red'></div>
+  <div className='decorative-arrow'></div>
         <div className='exp'>
         <span>How your Experience? </span>
         <span>  😀 😣 🙃 😃</span>
@@ -229,7 +233,9 @@ const [activeIndex, setActiveIndex] = useState(0);
   </p>
 
   <button className="launch-btn">
-    Launch Sandstory <span>↗</span>
+    Launch Sandstory  <span className="arrow-wrapper">
+    <span className="arrow">↗</span>
+  </span>
   </button>
 </div>
 
